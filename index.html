@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AboutFace - Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-container {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .login-container h1 {
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 1rem;
+      background-color: #2575fc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .login-container button:hover {
+      background-color: #1a5edb;
+    }
+
+    .footer-text {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .footer-text a {
+      color: #2575fc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h1>AboutFace</h1>
+    <form action="#" method="post">
+      <input type="text" name="username" placeholder="Nome de utilizador" required />
+      <input type="password" name="password" placeholder="Senha" required />
+      <button type="submit">Entrar</button>
+    </form>
+    <div class="footer-text">
+      Ainda não tens conta? <a href="#">Regista-te</a>
+    </div>
+  </div>
+</body>
+</html>
